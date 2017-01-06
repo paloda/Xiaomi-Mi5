@@ -5,6 +5,7 @@ qcom,a1_atl_3000mah {
 	qcom,batt-id-kohm = <70>;
 	qcom,battery-beta = <3380>;
 	qcom,battery-type = "a1_atl";
+	qcom,fastchg-current-ma = <3000>;
 	qcom,chg-rslow-comp-c1 = <2816357>;
 	qcom,chg-rslow-comp-c2 = <3219933>;
 	qcom,chg-rs-to-rslow = <1102926>;

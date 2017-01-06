@@ -17,6 +17,7 @@ qcom,itech-3020mah {
 	qcom,chg-term-ua = <100000>;
 	qcom,batt-id-kohm = <150>;
 	qcom,battery-type = "itech_3020mah";
+	qcom,fastchg-current-ma = <3000>;
 	qcom,fg-profile-data = [
 		 E8 83 0C 7D
 		 E9 80 B2 76

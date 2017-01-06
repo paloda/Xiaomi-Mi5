@@ -5,6 +5,7 @@ qcom,a1_sdi_3000mah {
 	qcom,batt-id-kohm = <30>;
 	qcom,battery-beta = <3380>;
 	qcom,battery-type = "a1_sdi";
+	qcom,fastchg-current-ma = <3000>;
 	qcom,chg-rslow-comp-c1 = <2867219>;
 	qcom,chg-rslow-comp-c2 = <3697420>;
 	qcom,chg-rs-to-rslow = <1176226>;
