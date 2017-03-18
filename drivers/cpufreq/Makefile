@@ -27,8 +27,6 @@ obj-$(CONFIG_CPU_FREQ_GOV_CHILL)	+= cpufreq_chill.o
 obj-$(CONFIG_CPU_BOOST)			+= cpu-boost.o
 obj-$(CONFIG_CPUFREQ_DT)		+= cpufreq-dt.o
 
-obj-$(CONFIG_ZEN_DECISION) 		+= msm_zen_decision.o
-obj-$(CONFIG_BRICKED_HOTPLUG) 		+= bricked_hotplug.o
 obj-$(CONFIG_LAZYPLUG)			+= lazyplug.o
 ##################################################################################
 # x86 drivers.
